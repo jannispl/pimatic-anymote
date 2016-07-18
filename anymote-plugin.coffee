@@ -128,8 +128,6 @@ module.exports = (env) ->
 
   class AnyMoteButtonsDevice extends env.devices.ButtonsDevice
     constructor: (@config, @plugin) ->
-      env.logger.info(@config)
-      
       @name = @config.name
       @id = @config.id
       super(@config)
@@ -138,7 +136,6 @@ module.exports = (env) ->
       super()
 
     buttonPressed: (buttonId) ->
-      env.logger.info('button pressed ' + buttonId)
       self = this
       for b in @config.buttons
         if b.id is buttonId

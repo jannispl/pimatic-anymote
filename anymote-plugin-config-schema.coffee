@@ -5,6 +5,6 @@ module.exports = {
   type: "object"
   properties:
     bleAddress:
-      description: "BLE address of AnyMote Home device"
+      description: "BLE address of AnyMote Home device, in lowercase hexadecimal format without colons"
       type: "string"
 }
