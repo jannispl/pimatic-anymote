@@ -12,7 +12,7 @@
     "anymote-device-config-schema.coffee",
     "anymote-plugin-config-schema.coffee"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://github.com/jannispl/pimatic-anymote",
   "repository": {
     "type": "git",

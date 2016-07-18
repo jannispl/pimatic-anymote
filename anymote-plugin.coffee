@@ -26,7 +26,7 @@ module.exports = (env) ->
   #  
 
   AnyMote = require 'anymote'
-  noble = require 'noble'
+  noble = require 'anymote/node_modules/noble'
 
   # ###MyPlugin class
   # Create a class that extends the Plugin class and implements the following functions:
