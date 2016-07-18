@@ -1,0 +1,37 @@
+{
+  "name": "pimatic-anymote",
+  "description": "Pimatic plugin that lets you send infrared codes using the AnyMote Home device",
+  "author": {
+    "name": "Jannis Pohl",
+    "email": "me@mavedev.com"
+  },
+  "main": "anymote-plugin",
+  "files": [
+    "anymote-plugin.coffee",
+    "README.md",
+    "anymote-device-config-schema.coffee",
+    "anymote-plugin-config-schema.coffee"
+  ],
+  "version": "0.1.0",
+  "homepage": "http://github.com/jannispl/pimatic-anymote",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jannispl/pimatic-anymote.git"
+  },
+  "configSchema": "anymote-plugin-config-schema.coffee",
+  "dependencies": {
+    "anymote": "^1.0.0"
+  },
+  "peerDependencies": {
+    "pimatic": "0.9.*",
+    "noble": "^1.6.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "bugs": {
+    "url": "https://github.com/jannispl/pimatic-anymote/issues"
+  },
+  "scripts": {}
+}
